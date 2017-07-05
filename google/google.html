@@ -5,13 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="google.css">
 </head>
 <body>
-	<nav>
+	<nav id="top">
 		<ul>
-			<a href="#"><li>Gmail</li></a>
-			<a href="#"><li>Images</li></a>
-			<a href="#"><img src="blc.png"></a>
-			<a href="#"><img src="Oo.png"></a>
-			<a href="#"><img src="oOO.png"></a>
+			<li><a href="#">Gmail</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#"><img src="blc.png"></a></li>
+			<li><a href="#"><img src="Oo.png"></a></li>
+			<li><a href="#"><img src="oOO.png"></a></li>
 
 		</ul>
 	</nav>
@@ -20,23 +20,27 @@
 	<form action="#" method="POST">
 		<label for="POST_search">Recherche</label>
 		<input id="POST_search" type="text" name="search" maxlength="2000"><br />
+		<div id="roww">
 		<input type="submit" value="Recherche Google">
 		<button type="button">J'ai de la chance</button>
+		</div>
 	</form>
 	</div>
 	<footer>
-		<div>
-		<div id="footLeft"
-		<a href="#">Publicité</a>
-		<a href="#">Entreprise</a>
-		<a href="#">A propos</a>
-		</div>
-		<div id="footRight">
-			<a href="#">Confidentialité</a>
-			<a href="#">Conditions</a>
-			<a href="#">Paramètres</a>
-		</div>
-		</div>
+		<nav>
+		<ul>
+			<li><a href="#">Publicité</a></li>
+			<li><a href="#">Entreprise</a></li>
+			<li><a href="#">A propos</a></li>
+		</ul>
+		</nav>
+		<nav>
+		<ul>
+			<li><a href="#">Confidentialité</a></li>
+			<li><a href="#">Conditions</a></li>
+			<li><a href="#">Paramètres</a></li>
+		</ul>
+		</nav>
 	</footer>
 </body>
 </html>
